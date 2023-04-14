@@ -36,5 +36,5 @@
             2. check if "error_count" is above 9
                 1. if yes, print "😵 You lost! Game over."
                 2. else:
-                    1. print "Oh no! This letter is not in the word we are looking for. 😬 Maybe try again?"
+                    1. print "Oh no! This letter is not in the word we are looking for. You have {10 - "errors_count"} tries. 😬 Maybe try again?"
                     2. return to step 12
